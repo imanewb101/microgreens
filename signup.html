@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,7 @@
 
     <title>Document</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -24,43 +26,45 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="container" id="site-nav">
-                <div class="collapse navbar-collapse justify-content-left mt-2" id="microworldBar" >
+                <div class="collapse navbar-collapse justify-content-left mt-2" id="microworldBar">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
                         <li class="nav-item"><a class="nav-link" href="growingkits.html">Growing Kits</a></li>
-                    </u>
+                        </u>
                 </div>
                 <div class="collapse navbar-collapse justify-content-center">
                     <a href="#" class="navbar-brand mt-0">
                         <img class="logo" src="img/logo.png" alt="" />
                     </a>
                 </div>
-                <div class="collapse navbar-collapse justify-content-center"id="microworldBar">
+                <div class="collapse navbar-collapse justify-content-center" id="microworldBar">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown"><a class="nav-link" href="aboutus.html">About The Farm</a>
                             <div class="dropdown-menu">
-                                <a class="nav-link dropdown-item" style="color: black" href="aboutus.html">About</a>   
-                                <a class="nav-link dropdown-item" style="color: black" href="locations.html">Locations</a>
+                                <a class="nav-link dropdown-item" style="color: black" href="aboutus.html">About</a>
+                                <a class="nav-link dropdown-item" style="color: black"
+                                    href="locations.html">Locations</a>
                             </div>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i></a></li>                        
+                        <li class="nav-item"><a class="nav-link" href="cart.html"><i
+                                    class="fa fa-shopping-cart fa-lg"></i></a></li>
                     </ul>
                 </div>
-                    <!--  
+                <!--  
                     <span class="navbar-text ml-auto">
                         <a role="button" data-toggle="modal" data-target="#loginModal">
                             <i class="fa fa-sign-in"></i> Login
                         </a>
                     </span>
                     -->
-                </div>
             </div>
-            
+        </div>
+
         </div>
     </nav>
-<!--
+    <!--
     <div class="modal" tabindex="-1" role="dialog" id="signUp">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -91,86 +95,41 @@
             </div>
         </div>
     </div>
--->
+-->     
+    <header>
+        <div class="container" id="signUpC">
+            <h2>Calling all Foodies, Health Nuts + Microgreen Enthusiasts!</h2>
+            <div class="text-center">
+                <p>Microgreens recipes, health info, and news about all things microgreens straight from Farmer Melissa</p>
+            </div>
+            <form style="display: table; padding-bottom: 40px;">
+                <div class="form-group row">
+                    <div class="col">
+                        <label for="firstName" class="col-md-2 col-form-label"></label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="FirstName" />                        
+                    </div>
+
+                    <div class="col">
+                        <label for="lastName" class="col-md-2 col-form-label"></label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />                          
+                    </div>
+                </div>
+                
+                <div class="form-group row" style="display: table-row;">
+                    <label for="email" class="col-md-2 col-form-label"></label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                </div>    
+            </form>    
+            <a href="signup.html" role="button" class="btn btn-outline btn-rounded">I'm In</a>
+            <p class="pt-4">Your privacy is important to both of us. We don’t sell your information.</p>
+        </div>
+
+
+    </header>
 
 
     <div class="container">
 
-        <div class="row row-content" style="align-items: center;">
-            <div class="col-sm-4 pt-5 col-md-3">
-                <div class="media">
-                    <img src="img/o.jpg" class="d-flex mr-2" alt="Plant">
-                </div>
-            </div>
-            <div class="col mt-3 vertical-center">
-                <h3 style="background-color: gray;"><strong>Prioritize your health and wellbeing with every meal you eat.</strong></h3>
-                <p>Locally grown, with passion and with the objective for providing a nuroshing meal.</p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <a href="growingkits.html" class="btn btn-outline btn-lg active" role="button" aria-pressed="true">
-                    BUY KITS
-                </a>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="https://images.squarespace-cdn.com/content/v1/5a508d752aeba5452097a459/1525636138182-CY01RO076HYPAM6G7OBJ/Grow-Your-Own-Microgreens-Kit.jpg?format=1000w"
-                        alt="Breadcrumb Trail thumbnail" width="300" height="400"/>
-                    <div class="media-body align-self-center">
-                        <h5><strong>1. Learn To Grow Microgreens with a Kit</strong></h5>
-                        <p class="d-none d-sm-block">
-                            In just a week, you'll learn to grow and be eating fresh microgreens - no yard needed! Shipping to USA via our Etsy
-                            Store! San Diego pick up available through our microgreens store.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <a href="shop.html" class="btn btn-outline btn-lg active" role="button" aria-pressed="true" width="300" height="400">
-                    BUY MICROGREENS
-                </a>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <div class="media-body align-self-center">
-                        <h5><strong>2. Buy Fresh Microgreens Online</strong></h5>
-                        <p class="d-none d-sm-block">
-                            You can order our fresh microgreens in San Diego. For pick-up on farm, at our farmer’s markets and limited San Diego
-                            delivery, visit online store.
-                        </p>
-                    </div>
-                    <img src="https://images.squarespace-cdn.com/content/v1/5a508d752aeba5452097a459/1588531648090-XG9EFCO2CSQFFURPR81Q/Buy+fresh+microgreens+online?format=1000w" class="d-flex mr-3 img-thumbnail" width="300" height="400"/>
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <a href="locations.html" class="btn btn-outline btn-lg active" role="button" aria-pressed="true">
-                    VISIT US
-                </a>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail"
-                        src="https://images.squarespace-cdn.com/content/v1/5a508d752aeba5452097a459/1631201551969-4RABCDQQNACUWK4QAC25/20210504_211517305_iOS.jpg?format=1000w" width="300" height="400" />
-                    <div class="media-body align-self-center">
-                        <h5><strong>3. Farmer’s Markets</strong></h5>
-                        <p class="d-none d-sm-block">
-                            We will be resuming several farmer’s markets as soon as the 2nd week in May. Please follow us on instagram, facebook,
-                            and sign up for our emails for updates.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
     </div>
     <footer class="page-footer font-small stylish-color-dark pt-4">
 
@@ -200,7 +159,7 @@
                 </a>
             </li>
         </ul>
-        
+
         <nav class="footer-nav text-center">
             <div class="footer-nav-group">
                 <a href="faq.html" class="footer-nav-item">Faq</a>
@@ -210,11 +169,11 @@
                 <a href="signup.html" class="footer-nav-item">Sign Up</a>
             </div>
         </nav>
-        
+
         <div class="footer-copyright text-center py-3">© 2021 Copyright:
             <a href="https://mdbootstrap.com/"> mgworld.com</a>
         </div>
-        
+
 
     </footer>
 
@@ -223,4 +182,5 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
